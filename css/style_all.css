@@ -8,8 +8,26 @@ Cinza: #676767
 */
 .container{
     margin-top: 80px;
+    border: #172043 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgba(22, 32, 71, 0.644);
+
 }
 
 h2{
     color: #172043;
+}
+
+.btn, a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-send{
+    background-color: #172043;  
+}
+
+.btn-send, a:hover{
+    background-color: #1c2a64;
+    color: #dd8c11;  
 }
