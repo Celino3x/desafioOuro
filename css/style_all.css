@@ -6,28 +6,30 @@ Azul Default: #172043
 Cinza: #676767
 
 */
+
 .container{
     margin-top: 80px;
-    border: #172043 1px solid;
-    border-radius: 15px;
-    box-shadow: 5px 10px rgba(22, 32, 71, 0.644);
-
 }
 
 h2{
     color: #172043;
 }
 
-.btn, a{
+.btn-dark, a{
+    text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: #FFF;
 }
 
-.btn-send{
-    background-color: #172043;  
+.btn-dark, a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dd8c11;
 }
 
-.btn-send, a:hover{
-    background-color: #1c2a64;
-    color: #dd8c11;  
+
+textarea:focus, input:focus{
+    border-color: #172043 solid;
+    box-shadow: 1px;
+    outline: 0;
 }
