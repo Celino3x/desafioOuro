@@ -1,14 +1,17 @@
 <section class="container">
-    <h2>Cadastro de Empresa</h2>
+    <center>
+        
+    </center>
+    <h2><img class="logo" src="./img/logob.png" alt="Ouro Moderno logo"> Cadastro de Empresa</h2>
     <div class="form">
-        <form action="teste.php" method="post">
+        <form action="check.php" method="post">
                 <div class="mb-3">
                     <label class="form-label">Nome Fantasia</label>
-                    <input type="text" class="form-control" id="NomeFantasia" placeholder="EduC Tech">
+                    <input type="text" name="nome_fantasia" class="form-control" id="NomeFantasia" placeholder="EduC Tech">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Razão Social</label>
-                    <input type="text" class="form-control" id="RazaoSocial" placeholder="Educa Tecnologia">
+                    <input type="text" name="razao_social" class="form-control" id="RazaoSocial" placeholder="Educa Tecnologia">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">CNPJ</label>
@@ -16,10 +19,10 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Endereço</label>
-                    <input type="text" class="form-control" id="Endereco" placeholder="Av. Sampaio 123">
+                    <input type="text" name="endereco" class="form-control" id="Endereco" placeholder="Av. Sampaio 123">
                 </div>
                 <div class="sendForm">
-                    <button type="submit" id="enviar" class="btn btn-dark"><a href="#">EXEMPLO</a></button>
+                    <button type="submit" id="enviar" class="btn btn-dark"><a href="#">Enviar</a></button>
                 </div>
         </form>
     </div>
