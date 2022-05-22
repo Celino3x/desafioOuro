@@ -4,7 +4,7 @@
 
 <?php
 /*CORPO DO FORM*/
-    include('body_.php')
+    include('body_.php');
 ?>
 
 <?php
