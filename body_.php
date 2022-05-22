@@ -20,6 +20,7 @@
                 </div>
                 <div class="sendForm">
                     <button type="submit" id="enviar" class="btn btn-dark">Enviar</button>
+                    <a href="consulta.php" class="btn btn-secondary">Consultar</a>
                 </div>
         </form>
     </div>

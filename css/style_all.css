@@ -43,3 +43,11 @@ textarea:focus, input:focus{
     box-shadow: 1px;
     outline: 0;
 }
+
+/*
+CONSULTA EMPRESA
+*/
+
+.h3empresa{
+    color: #dd8c11;
+}

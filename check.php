@@ -17,6 +17,7 @@
     <div class="container">
         <h3>Cadastrado</h3>
         <a href="index.php" class="btn btn-sm btn-warning">Voltar</a>
+        <a href="consulta.php" class="btn btn-sm btn-secondary">Consultar</a>
     </div>
 <?php
     include('footer_.php');
