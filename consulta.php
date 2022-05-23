@@ -35,8 +35,8 @@
             <td><?php echo $end_empresa ?></td>
 
             <td>
-                    <a class="btn btn-warning btn-sm" href="editarcategoria.php?id=<?php echo $id ?>" role="button"><i class="far fa-edit"></i>Editar</a>
-                    <a class="btn btn-danger btn-sm" href="deletecategoria.php?id=<?php echo $id ?>" role="button"><i class="far fa-trash-alt"></i>Excluir</a>
+                    <a class="btn btn-warning btn-sm" href="editar_emp.php?id=<?php echo $id ?>" role="button"><i class="far fa-edit"></i>Editar</a>
+                    <a class="btn btn-danger btn-sm" href="deletar_emp.php?id=<?php echo $id ?>" role="button"><i class="far fa-trash-alt"></i>Excluir</a>
             </td>
         </tr>
         <?php } ?>

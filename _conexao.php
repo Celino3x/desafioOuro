@@ -1,5 +1,5 @@
 <?php
-    $server = "192.168.3.11";
+    $server = "10.19.32.94";
     $database = "crud";
     $username = "adm";
     $password = "C@$@#Admin";

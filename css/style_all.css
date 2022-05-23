@@ -51,3 +51,9 @@ CONSULTA EMPRESA
 .h3empresa{
     color: #dd8c11;
 }
+
+/* EDITAR */
+
+.ediID{
+    display: none;
+}
